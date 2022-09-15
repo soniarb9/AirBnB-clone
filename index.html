@@ -25,12 +25,12 @@
     <title>Airbnb</title>
   </head>
   <body>
-    <nav class="navbar">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <!-- <nav class="navbar navbar-expand-xl py-0 position-absolute w-100" id="navbar"> -->
         <!-- nav for xl screens -->
         <div class="d-none d-xl-flex flex-grow-1" id="xlNavbar">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#"><img src="newsicon.png" /></a>
           <div class="navbar-nav ml-auto">
             <button
               class="navbar-toggler"
@@ -68,8 +68,9 @@
                     data-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    <img src="globeicon.png" />
+                    <img id="globe" src="globeicon.png" />
                   </a>
+
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="#">Action</a>
                     <a class="dropdown-item" href="#">Another action</a>
@@ -92,12 +93,44 @@
       </nav>
       <!-- Use example https://getbootstrap.com/docs/4.6/components/navbar/#supported-content -->
     </nav>
-
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-8 order-md-2">main article image</div>
-        <div class="col-12 col-md-4 order-md-1">main article text</div>
+        <div class="col-12 col-md-8 order-md-2">
+          <img
+            id="guyonright"
+            src="Ukraine-Rafal-flag_newsroom.jpg"
+            alt="guyonright"
+          />
+        </div>
+        <div class="col-12 col-md-4 order-md-1">
+          <div class="article">
+            <p id="date">August 31, 2022</p>
+            <p id="belowdate">
+              <a href="#">
+                100,000 people fleeing Ukraine have found stays through
+                Airbnb.org</a
+              >
+            </p>
+            <button type="button" class="btn btn-danger">Read More</button>
+            <!-- <a
+              class="btn btn--gradient"
+              href="https://news.airbnb.com/100000-people-fleeing-ukraine-found-temporary-stays-through-airbnb-org/"
+            >
+              <span
+                class="thermal-bg"
+                style="
+                  background-position: calc((100 - var(--mouse-x)) * 1%)
+                    calc((100 - var(--mouse-y)) * 1%);
+                  --mouse-x: 0;
+                  --mouse-y: 0;
+                "
+              ></span>
+              <span>Read more</span>
+            </a> -->
+          </div>
+        </div>
       </div>
+
       <h3>Latest News</h3>
       <div class="row">
         <div class="col-12 col-md-9">
