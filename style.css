@@ -31,7 +31,7 @@
 }
 
 #belowdate {
-  text-decoration: strong;
+  /* text-decoration: bold; */
   /* color: black; */
   font-weight: bold;
   font-size: 25px;
@@ -56,6 +56,15 @@ a {
   background-color: #000;
 }
 
-.row overflow-auto {
+.row1 {
   display: flex;
+  flex-wrap: nowrap;
 }
+
+/* .row1 {
+  display: grid;
+  -webkit-column-gap: 16px;
+  column-gap: 16px;
+  grid-template-columns: repeat(12, 1fr);
+  row-gap: 0;
+} */
