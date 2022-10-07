@@ -55,3 +55,7 @@ a {
   height: 57.5%;
   background-color: #000;
 }
+
+.row overflow-auto {
+  display: flex;
+}
