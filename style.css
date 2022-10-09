@@ -68,3 +68,17 @@ a {
   grid-template-columns: repeat(12, 1fr);
   row-gap: 0;
 } */
+
+.middlesection {
+  color: white;
+  position: relative;
+  justify-content: center;
+}
+
+.socialFollow__hdr {
+  font-size: 26px;
+  line-height: 1.15385;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
