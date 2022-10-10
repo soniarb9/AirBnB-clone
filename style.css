@@ -113,3 +113,23 @@ div#wrap {
   flex-wrap: nowrap;
   overflow: auto;
 }
+
+.categories {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  justify-content: center;
+}
+
+.catbuttons {
+  border-radius: inherit;
+  padding-top: 1rem;
+}
+
+/* button {
+  width: 100px;
+  height: 50px;
+  padding: 13px 18px;
+  border-radius: 60px;
+  font-size: 15px;
+  text-align: center;
+} */
