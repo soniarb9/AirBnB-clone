@@ -26,73 +26,50 @@
   </head>
   <body>
     <nav>
-      <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <!-- <nav class="navbar navbar-expand-xl py-0 position-absolute w-100" id="navbar"> -->
-        <!-- nav for xl screens -->
-        <div class="d-none d-xl-flex flex-grow-1" id="xlNavbar">
-          <a class="navbar-brand" href="#"><img src="newsicon.png" /></a>
-          <div class="navbar-nav ml-auto">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#"
-                    ><strong>About us</strong><span class="sr-only">(current)</span></a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Media Assets</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Product Releases</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    <img id="globe" src="globeicon.png" />
-                  </a>
-                  
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">English</a>
-                    <a class="dropdown-item" href="#">Spanish</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">French</a>
-                  </div>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <button
-                  class="btn btn-outline-success my-2 my-sm-0"
-                  type="submit"
-                >
-                  Search
-                </button>
-              </form>
-            </div>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <a class="navbar-brand" href="#"><img src="newsicon.png" class="d-inline-block align-top" alt="AirBNB Logo">
+            </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Media Assests</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-globe-americas"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">English</a>
+                  <a class="dropdown-item" href="#">Deutsch</a>
+                  <a class="dropdown-item" href="#">Espanol</a>
+                  <a class="dropdown-item" href="#">Italiano</a>
+                </div>
+              </li>
+            </ul>
+            <i class="fas fa-search pl-3"></i>
           </div>
-        </div>
+        </nav>
+    </div>
       </nav>
       <!-- Use example https://getbootstrap.com/docs/4.6/components/navbar/#supported-content -->
-    </nav>
+    
+
+
+
+
+
+
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-8 order-md-2">
@@ -177,8 +154,9 @@
         <!-- use position absolute to position this background -->
       </div>
       <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-6">
+        <div class="row col-6 future-travel-text d-none d-lg-block">
+        <!-- <div class="row">
+          <div class="col-12 col-md-6"> -->
             <h3>The future of travel</h3>
             <p>
               The ways people travel, work and live are blurring. From product
