@@ -108,3 +108,8 @@ a {
 h5 {
   padding-top: 7px;
 }
+
+div#wrap {
+  flex-wrap: nowrap;
+  overflow: auto;
+}
