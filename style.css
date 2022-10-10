@@ -82,3 +82,29 @@ a {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
+
+.date {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.28571;
+}
+
+.text-secondary {
+  color: #6c757d !important;
+}
+/* .pt-3,
+.py-3 {
+  padding-top: 1rem !important;
+} */
+/* p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+} */
+
+.mr-4 {
+  margin-right: 0.001rem !important;
+}
+
+h5 {
+  padding-top: 7px;
+}
